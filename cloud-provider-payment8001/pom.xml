@@ -10,24 +10,29 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>cloud-provider-payment8001</artifactId>
   <dependencies>
+    <dependency>
+      <groupId>com.wanghao.springcloud</groupId>
+      <artifactId>cloud-api-common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
     <!--包含了sleuth+zipkin-->
     <!--<dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-zipkin</artifactId>
     </dependency>-->
     <!--eureka-client-->
-    <!--<dependency>
+    <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>-->
+    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-   <!-- <dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
-    </dependency>-->
+    </dependency>
     <dependency>
       <groupId>org.mybatis.spring.boot</groupId>
       <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -59,7 +64,6 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.12</version>
       <optional>true</optional>
     </dependency>
     <dependency>

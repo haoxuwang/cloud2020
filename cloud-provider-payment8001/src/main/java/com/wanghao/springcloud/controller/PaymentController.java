@@ -5,9 +5,10 @@ import com.wanghao.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+
 import javax.annotation.Resource;
 /**
- * @auther zzyy
+ * @auther wanghao
  * @create 2020-02-18 10:43
  */
 @RestController
