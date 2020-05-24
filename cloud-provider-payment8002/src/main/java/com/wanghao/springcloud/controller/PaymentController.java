@@ -24,10 +24,8 @@ public class PaymentController
 
     @Value("${server.port}")
     private String serverPort;
-
     @Resource
     private DiscoveryClient discoveryClient;
-
     @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment)
     {
@@ -68,6 +66,5 @@ public class PaymentController
 
         return this.discoveryClient;
     }
-
 
 }
